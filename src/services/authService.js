@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://auth-todo-list-backend-s3qp.onrender.com";
 
 // === AUTH ===
 export const loginUser = async (email, password) => {
